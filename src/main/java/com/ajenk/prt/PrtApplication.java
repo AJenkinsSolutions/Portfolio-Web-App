@@ -8,6 +8,7 @@ public class PrtApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PrtApplication.class, args);
+		System.out.println("Entered Main Portfolio Application");
 	}
 
 }
