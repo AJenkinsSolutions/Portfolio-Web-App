@@ -1,0 +1,50 @@
+@Author Alex Jenkins
+
+src/
+|-- main/
+    |-- java/
+        |-- com/
+            |-- ajen/   // Your Company Name
+                |-- port/   // Your App Mnemonic (Portfolio)
+                    |-- controller/
+                        |-- ProjectController.java
+                        |-- BlogController.java
+                        |-- ContactController.java
+                    |-- service/
+                        |-- ProjectService.java
+                        |-- BlogService.java
+                        |-- ContactService.java
+                    |-- repository/
+                        |-- ProjectRepository.java
+                        |-- BlogRepository.java
+                    |-- model/
+                        |-- audit/
+                            |-- AuditEntity.java
+                        |-- Project.java
+                        |-- BlogPost.java
+                        |-- ContactMessage.java
+                    |-- exception/
+                        |-- ResourceNotFoundException.java
+                        |-- ApiExceptionHandler.java
+                    |-- config/
+                        |-- SecurityConfig.java
+                        |-- WebConfig.java
+                    |-- PortfolioApplication.java
+    |-- resources/
+        |-- application.properties
+|-- test/
+    |-- java/
+        |-- com/
+            |-- ajen/   // Your Company Name
+                |-- port/   // Your App Mnemonic (Portfolio)
+                    |-- controller/
+                        |-- ProjectControllerTests.java
+                        |-- BlogControllerTests.java
+                        |-- ContactControllerTests.java
+                    |-- service/
+                        |-- ProjectServiceTests.java
+                        |-- BlogServiceTests.java
+                        |-- ContactServiceTests.java
+                    |-- repository/
+                        |-- ProjectRepositoryTests.java
+                        |-- BlogRepositoryTests.java
